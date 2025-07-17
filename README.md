@@ -13,7 +13,14 @@
 
 ## install cdk via npm
 
-        $ npm install -g aws-cdk
+        npm install -g aws-cdk
+
+## create .venv for running CDK stack
+
+        python3 -m env .venv
+        source .venv/bin/activate
+        pip install --upgrade pip
+        pip install -r requirement.txt
 
 ## Bootstrap CDK
 
