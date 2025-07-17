@@ -1,0 +1,6 @@
+python
+*.zip
+
+__pycache__/
+.venv/
+cdk.out
